@@ -1,5 +1,6 @@
 import random
 
+
 def makeNums():
     balls = [ i for i in range(1,46)]
     random.shuffle(balls)
@@ -14,12 +15,15 @@ def input_display():
         return money / 1000
 
 
-
 def main():
     count = input_display()
     for x in range(int(count)):
         nums = makeNums()
         print(sorted(nums))
+    print("----------------------------")
+    print("----------------------------")
+    print("----------------------------")
+    print("----------------------------")
     print("----------------------------")
 
 if __name__ == "__main__":
